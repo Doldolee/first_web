@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>login</title>
+    
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="./css/mdb.min.css" />
+    <link rel="stylesheet" href="./stylesheets/style.css" />
+    <!-- Custom styles -->
+    <style></style>
+
+    <!-- script -->
+    <script src="./javascripts/login.js"></script>
+    
+    <style>
+      @media (max-width: 360px){
+        article{background-color: white; border-radius:2%}
+        div > p{margin-top: -2vh;}
+      }
+
+    </style>
+  </head>
+  <body >
+    <!-- Start your project here-->
+    <div style="  
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2) ),url(../images/backG.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    ">
+      <div style="height: 100vh; width: 100vw; position: relative;">
+        <div style=>
+        <img class="img_wantreez" style="width: 60vw; margin-top: 80px;  position:absolute; right:50%; transform:translate(50%);"  src="./images/gold_full_medium.png" alt="" >
+        </div>
+          <!-- Default form login -->
+          <main>
+          <article class="" style="margin-top: 25vh; clear:left; height:65vh; width: 80vw; position:absolute; right:50%; transform:translate(50%)">
+            
+              <div class="text-center" style="margin-top:3vh; background-color:white; height:45vh; width: 40vw; position:absolute; right:50%; transform:translate(50%); border-radius:2%">
+              <p class="h4 mb-4" style="margin-top: 1vh;"><span>Sign up</span></p>
+              
+
+              <!-- Email -->
+              <input type="text" id="Id1" style="margin-top:2vh; margin-left:2vw; width:36vw" class="form-control" placeholder="Id">
+
+              <!-- Password -->
+              <input style="margin-top:2vh; margin-left:2vw; width:36vw" type="password" id="Password1" class="form-control" placeholder="Password">
+              <input type="password" id="Password2" style="margin-top:2vh; margin-left:2vw; width:36vw" class="form-control" placeholder="Password_confirm">
+              <input onkeypress="enter_test()" style="margin-top:2vh; margin-left:2vw; width:36vw" type="text" id="name1" class="form-control" placeholder="name">
+
+              <!-- Sign in button -->
+              <div class="text-center mb-3" style="margin-top: 2vh;">
+                <button id="chk1" style="width:31vw" type="button" class="btn login-btn1  btn-rounded z-depth-1a" onclick=register()>Sign in</button>
+              </div>
+
+              <!-- Register -->
+              <p>Do you want back?
+                <a href="/">back</a>
+              </p>
+
+            </div>
+            </article>
+          </main>
+      
+      
+        <!-- Default form login -->
+      </div>
+    </div>
+    <!-- End your project here-->
+  </body>
+
+  <!-- MDB -->
+  <script type="text/javascript" src="./js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</html>
